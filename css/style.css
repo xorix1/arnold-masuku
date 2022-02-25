@@ -323,6 +323,7 @@ header
    font-weight: 600;
    text-transform: uppercase;
 }
+
 .header .hamburger-btn{
    height: 40px;
    width: 40px;
@@ -332,6 +333,11 @@ header
    border-radius: 50%;
    justify-content: center;
    transition: all 0.3s ease;
+   color:var(--skin-color);
+   border-radius: 50%;
+   border:5px solid var(--skin-color);
+   font-weight: 600;
+   text-transform: uppercase;
 }
 .header .hamburger-btn:after{
    border-radius: 50%;
@@ -351,11 +357,7 @@ header
    width: 100%;
    height: 100%;
    background-color: var(--bg-black-900);
-   color:var(--skin-color);
-   border-radius: 50%;
-   border:5px solid var(--skin-color);
-   font-weight: 600;
-   text-transform: uppercase;
+ 
 }
 .header .hamburger-btn span:before{
    top:-6px;
